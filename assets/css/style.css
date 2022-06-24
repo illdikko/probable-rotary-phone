@@ -139,6 +139,7 @@ section#portfolio .portfolio-images {
     width: 80%;
     margin-left: 10%;
     padding-top: 30px;
+
 }
 
 section#portfolio .portfolio-images .portfolio-content {
@@ -146,6 +147,7 @@ section#portfolio .portfolio-images .portfolio-content {
     float: left;
     padding: 15px;
     height: 360px;
+    display: grid;
 }
 
 section#portfolio .portfolio-images .portfolio-content img {
@@ -161,17 +163,23 @@ section#contact {
     padding-top: 60px;
 }
 
-section#contact span {
-    display: block;
+section#contact h2 {
+    margin-left: 10%;
+    font-family: "InconsolataBold";
+    font-size: 4rem;
+    margin-left: 10%;
+    padding: 10px;
+}
+
+section#contact p {
     margin-left: 10%;
     padding: 10px;
     letter-spacing: 1px;
     font-size: 1.7rem;
     line-height: 1.7;
-
 }
 
-section#contact span:first-child {
-    font-family: "InconsolataBold";
-    font-size: 4rem;
+section#contact .underline {
+    text-decoration: underline;
+    text-decoration-color: #fcffc1;
 }
